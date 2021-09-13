@@ -1285,22 +1285,29 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.17.tgz#25fdbdfd282c2f86ddf3fcefbd98be99cd2627e2"
   integrity sha512-0p1rCgM3LLbAdwBnc7gqgnvjHg9KpbhcSphergHShlkWz8EdPawoMJ3/VbezI0mGC5eKCDzMaPgF9Yca6cKvrg==
 
-"@storefront-ui/shared@0.11.0-rc.1":
-  version "0.11.0-rc.1"
-  resolved "https://registry.yarnpkg.com/@storefront-ui/shared/-/shared-0.11.0-rc.1.tgz#7f6dcd3ef7a0422e9c8b890e9bbe6253fec574b6"
-  integrity sha512-B5C+6DRp4sMnsZCT1D6n5hEIs5mC/HDC1mxc0/f2hbVmldSWm/IK3sLbzqPVdbGVq019w6BjatlDdPyG+AOYgw==
+"@storefront-ui/nuxt@^0.10.8":
+  version "0.10.8"
+  resolved "https://registry.yarnpkg.com/@storefront-ui/nuxt/-/nuxt-0.10.8.tgz#fb71b380018c1d21274c863edcf8f8d99b8996c5"
+  integrity sha512-Ux0vO+Nq9VBr5SLTuvHC0w9hEF6rgTmqnevigRQ7iS3vyulRFwvd5NDuTD5c+xNLI7xjTgeemy5mEkc3mip/Og==
+  dependencies:
+    "@storefront-ui/vue" "0.10.8"
+    lodash "^4.17.21"
 
-"@storefront-ui/vue@^0.11.0-rc.1":
-  version "0.11.0-rc.1"
-  resolved "https://registry.yarnpkg.com/@storefront-ui/vue/-/vue-0.11.0-rc.1.tgz#177fc843350068ba37d07919eec8fe527e072e61"
-  integrity sha512-Ld5qNvgbLfb39y1GMgjp7tO+KmzHr36hfHw599MQXA7uJQkGvrkydugxNUOhW1W89b3R5+tu62gmqWB5T1vOdw==
+"@storefront-ui/shared@0.10.8":
+  version "0.10.8"
+  resolved "https://registry.yarnpkg.com/@storefront-ui/shared/-/shared-0.10.8.tgz#1717f528a073dcebbd6115f587c3cf57a94ee86a"
+  integrity sha512-lRVqxs5QAOtXV129uNDSn0BYvjix0VXNZu2ChnQAu8jNKC/Q10cN1XrDiOEiL8hDpx7py+6DUka1WZ5K8dn+jQ==
+
+"@storefront-ui/vue@0.10.8":
+  version "0.10.8"
+  resolved "https://registry.yarnpkg.com/@storefront-ui/vue/-/vue-0.10.8.tgz#9d3e999a4beb2188cca397dcb7cc7b3d5d9a6207"
+  integrity sha512-+ePyaXITmGxWfDs4capCoTQoq76a38Q4UA9PEYgcBiCPeSOBXtAQ6NGOKooTK27y4m+2NLOyeh+kdsPSXlFVYg==
   dependencies:
     "@glidejs/glide" "^3.3.0"
-    "@storefront-ui/shared" "0.11.0-rc.1"
+    "@storefront-ui/shared" "0.10.8"
     body-scroll-lock "^3.0.1"
     cloudinary-build-url "^0.1.1"
     core-js "^3.6.5"
-    glob "^7.1.4"
     hammerjs "^2.0.8"
     leaflet "^1.5.1"
     nouislider "^15.2.0"
@@ -2598,7 +2605,12 @@ core-js@^2.6.5:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
   integrity sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
 
-core-js@^3.0.1, core-js@^3.16.2, core-js@^3.6.5:
+core-js@^3.0.1, core-js@^3.6.5:
+  version "3.17.3"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.17.3.tgz#8e8bd20e91df9951e903cabe91f9af4a0895bc1e"
+  integrity sha512-lyvajs+wd8N1hXfzob1LdOCCHFU4bGMbqqmLn1Q4QlCpDqWPpGf+p0nj+LNrvDDG33j0hZXw2nsvvVpHysxyNw==
+
+core-js@^3.16.2:
   version "3.16.2"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.16.2.tgz#3f485822889c7fc48ef463e35be5cc2a4a01a1f4"
   integrity sha512-P0KPukO6OjMpjBtHSceAZEWlDD1M2Cpzpg6dBbrjFqFhBHe/BwhxaP820xKOjRn/lZRQirrCusIpLS/n2sgXLQ==
@@ -6623,9 +6635,9 @@ sass-loader@^10.0.3:
     semver "^7.3.2"
 
 sass@^1.32.13:
-  version "1.38.0"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.38.0.tgz#2f3e60a1efdcdc910586fa79dc89d3399a145b4f"
-  integrity sha512-WBccZeMigAGKoI+NgD7Adh0ab1HUq+6BmyBUEaGxtErbUtWUevEbdgo5EZiJQofLUGcKtlNaO2IdN73AHEua5g==
+  version "1.39.2"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.39.2.tgz#1681964378f58d76fc64a6a502619bd5ac99f660"
+  integrity sha512-4/6Vn2RPc+qNwSclUSKvssh7dqK1Ih3FfHBW16I/GfH47b3scbYeOw65UIrYG7PkweFiKbpJjgkf5CV8EMmvzw==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
 
