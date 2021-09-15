@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@storefront-ui/nuxt": "^0.10.8",
-    "core-js": "^3.16.2",
+    "core-js": "3.6.5",
     "nuxt": "^2.15.8"
   },
   "devDependencies": {}
